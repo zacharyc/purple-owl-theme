@@ -1,0 +1,19 @@
+.foo {
+	--theme-ui-colors-modes-night-owl-primary: #c792ea;
+	--theme-ui-colors-modes-night-owl-secondary: #F78C6C;
+	--theme-ui-colors-modes-night-owl-muted: #03243e;
+	--theme-ui-colors-modes-night-owl-backdrop: rgba(3, 36, 62, 0.5);
+	--theme-ui-colors-modes-night-owl-background: #011627;
+	--theme-ui-colors-modes-night-owl-text: #abb2bf;
+	--theme-ui-colors-modes-night-owl-variable: #82AAFF;
+	--theme-ui-colors-modes-night-owl-attribute: #F78C6C;
+	--theme-ui-colors-modes-night-owl-definition: #82AAFF;
+	--theme-ui-colors-modes-night-owl-keyword: #c792ea;
+	--theme-ui-colors-modes-night-owl-operator: #c792ea;
+	--theme-ui-colors-modes-night-owl-property: #fff;
+	--theme-ui-colors-modes-night-owl-number: #F78C6C;
+	--theme-ui-colors-modes-night-owl-string: #ecc48d;
+	--theme-ui-colors-modes-night-owl-comment: #717a8a;
+	--theme-ui-colors-modes-night-owl-meta: #7fdbca;
+	--theme-ui-colors-modes-night-owl-tag: #7fdbca;
+}
