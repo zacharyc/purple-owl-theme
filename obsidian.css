@@ -31,7 +31,7 @@ body.theme-ui-night-owl {
             --theme-ui-colors-meta: var(--theme-ui-colors-modes-night-owl-meta, #7fdbca);
             --theme-ui-colors-tag: var(--theme-ui-colors-modes-night-owl-tag, #7fdbca);
         }
-        
+
 ----------------------------------------------------------------
 
 TOC
@@ -147,19 +147,19 @@ Disabled features */
 
   /* Preview mode */
 
-  --text:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  --text:"monolisa", menlo, SFMono-Regular, Consolas, monospace;
   
   /* Editor mode */
 
-  --text-editor:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  --text-editor:var(--text);
   
   /* Code */
 
-  --font-monospace:Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
+  --font-monospace:var(--text);
 
   /* UI */
 
-  --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  --font-ui:var(--text);
 
   /* Sizes, weights, padding */
 
@@ -233,22 +233,26 @@ body {
 
   .theme-light {
     --background-primary:white;
-    --background-primary-alt:hsl(var(--base-h),var(--base-s),var(--base-l));
-    --background-secondary:hsl(var(--base-h),var(--base-s),var(--base-l));
-    --background-secondary-alt:hsl(var(--base-h),var(--base-s),var(--base-l));
-    --background-tertiary:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 5%));
+    --background-primary-alt:#c792ea;
+    --background-secondary:#F78C6C;
+    --background-secondary-alt:rgba(3, 36, 62, 0.5);
+    --background-tertiary:#03243e;
+    /* unknown what these values mean */
     --background-modifier-border:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 6%));
     --background-modifier-border-hover:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 12%));
     --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 20%));
     --background-modifier-form-field:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 6%));
     --background-modifier-form-field-highlighted:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 8%));
-    --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 80%));
-    --text-muted:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 45%));
-    --text-faint:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 25%));
+    /* done with unknown stuff */
+    --text-normal:#c792ea;
+    --text-muted:#03243e;
+    --text-faint:rgba(3, 36, 62, 0.5);
+    /* Unsure what to set these to:  */
     --background-transparent:hsla(var(--base-h),var(--base-s),var(--base-l),0);
     --background-translucent:rgba(255,255,255,0.85);
     --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
     --background-modifier-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) + 10%));
+    /* done */
     --text-accent:hsl(var(--accent-h),var(--accent-s),var(--accent-l));
     --text-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-l) - 10%));
     --text-on-accent:white;
