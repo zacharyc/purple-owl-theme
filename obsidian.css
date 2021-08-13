@@ -280,28 +280,28 @@ body {
     --background-secondary-alt:rgba(5, 40, 70, 0.5);
     --background-tertiary:#082632;
     --background-modifier-border:#03243e;
-    --background-modifier-border-hover:#F78C6C;
+    --background-modifier-border-hover:#c792ea;
     --background-modifier-border-focus:#ecc48d;
     --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
     --text-normal:#abb2bf;
-    --text-muted:#03243e;
-    --text-faint:#F78C6C;
+    --text-muted:#ecc48d;
+    --text-faint:#c792ea;
     --background-transparent:hsla(var(--base-h),var(--base-s),var(--base-d),0);
     --background-translucent:hsla(var(--base-h),var(--base-s),var(--base-d),0.85);
     --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
     --background-modifier-accent:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 10%));
     --text-accent:hsl(var(--accent-h),var(--accent-s),var(--accent-d));
-    --text-accent-hover:#F78C6C;
+    --text-accent-hover:#c792ea;
     --text-on-accent:white;
     --icon-hex:FFF;
     --interactive-accent:#ecc48d;
     --interactive-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 15%));
     --quote-opening-modifier:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
     --interactive-accent-rgb:66, 66, 66;
-    --text-selection:#F78C6C;
+    --text-selection:#c792ea;
     --text-highlight-bg:rgba(3, 36, 62, 0.5);
     --text-highlight-bg-active:rgba(3, 36, 62, 0.1);
-    --background-modifier-cover:#7fdbca;
+    --background-modifier-cover:#c792ea;
   }
   .theme-light.minimal-light-white {
     --background-secondary:white;
