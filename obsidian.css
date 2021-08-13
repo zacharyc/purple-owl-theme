@@ -298,10 +298,10 @@ body {
     --interactive-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 15%));
     --quote-opening-modifier:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
     --interactive-accent-rgb:66, 66, 66;
-    --text-selection:#c792ea;
+    --text-selection:rgba(197, 146, 234, 0.651);
     --text-highlight-bg:rgba(3, 36, 62, 0.5);
     --text-highlight-bg-active:rgba(3, 36, 62, 0.1);
-    --background-modifier-cover:#c792ea;
+    --background-modifier-cover:#7fdbca;
   }
   .theme-light.minimal-light-white {
     --background-secondary:white;
