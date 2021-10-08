@@ -302,7 +302,7 @@ body {
     --text-selection:rgba(197, 146, 234, 0.651);
     --text-highlight-bg:rgba(3, 36, 62, 0.5);
     --text-highlight-bg-active:rgba(3, 36, 62, 0.1);
-    --background-modifier-cover:#7fdbca;
+    --background-modifier-cover:#011627;
   }
   .theme-light.minimal-light-white {
     --background-secondary:white;
