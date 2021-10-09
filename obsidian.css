@@ -284,8 +284,8 @@ body {
     --background-modifier-border-focus:#ecc48d;
     --background-modifier-box-shadow:rgba(0, 0, 0, 0.3);
     --text-normal:#abb2bf;
-    --text-muted:#ecc48d;
-    --text-faint:#c792ea;
+    --text-muted:#c792ea;
+    --text-faint:rgba(199, 146, 234, 0.593);
     --background-transparent:hsla(var(--base-h),var(--base-s),var(--base-d),0);
     --background-translucent:hsla(var(--base-h),var(--base-s),var(--base-d),0.85);
     --background-match-highlight:hsla(var(--accent-h), 40%, 62%, 0.2);
