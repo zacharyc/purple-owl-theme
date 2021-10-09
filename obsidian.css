@@ -295,14 +295,14 @@ body {
     --text-code:#c792ea;
     --text-on-accent:white;
     --icon-hex:FFF;
-    --interactive-accent:#ecc48d;
-    --interactive-accent-hover:hsl(var(--accent-h),var(--accent-s),calc(var(--accent-d) - 15%));
+    --interactive-accent:#c792ea;
+    --interactive-accent-hover:rgba(141, 67, 190, 1);
     --quote-opening-modifier:hsl(var(--base-h),var(--base-s),calc(var(--base-d) + 10%));
     --interactive-accent-rgb:66, 66, 66;
     --text-selection:rgba(197, 146, 234, 0.651);
     --text-highlight-bg:rgba(3, 36, 62, 0.5);
     --text-highlight-bg-active:rgba(3, 36, 62, 0.1);
-    --background-modifier-cover:#011627;
+    --background-modifier-cover:hsla(207, 95%, 8%, 0.678);
   }
   .theme-light.minimal-light-white {
     --background-secondary:white;
